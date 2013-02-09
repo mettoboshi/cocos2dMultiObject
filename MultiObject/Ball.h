@@ -10,7 +10,9 @@
 #import "cocos2d.h"
 
 @interface Ball : CCSprite {
-    
 }
+
+- (id)initWithPlace:(int)x placeY:(int)y;
+- (void) update:(ccTime)delta;
 
 @end

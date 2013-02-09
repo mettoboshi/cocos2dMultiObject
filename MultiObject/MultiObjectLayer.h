@@ -8,9 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
+#import "Ball.h"
 
 @interface MultiObjectLayer : CCLayer {
-    
+    Ball* ballImageAka;
+    CCSpriteBatchNode* batch;
 }
+
++ (CCScene *) scene;
 
 @end
